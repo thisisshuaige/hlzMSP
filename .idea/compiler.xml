@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hlz" />
         <module name="domain" />
+        <module name="hlz" />
+        <module name="msp-web-api" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="domain" options="-parameters" />
       <module name="domian" options="-parameters" />
       <module name="hlz" options="-parameters" />
+      <module name="msp-web-api" options="-parameters" />
     </option>
   </component>
 </project>
