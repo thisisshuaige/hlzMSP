@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hlz.domain.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.hlz.domain.models.User">
+        <result column="id" property="id" jdbcType="BIGINT"></result>
+        <result column="user_name" property="userName" jdbcType="VARCHAR"></result>
+        <result column="pass_word" property="passWord" jdbcType="VARCHAR"></result>
+        <result column="real_name" property="realName" jdbcType="VARCHAR"></result>
+    </resultMap>
+
+    <select id="selectUserAll" resultMap="BaseResultMap">
+        select * from user limit #{pageNumber},#{pageSize}
+    </select>
+
+    <select id="countUserAll" resultType="Integer">
+        select count(*) from user
+    </select>
+</mapper>   
