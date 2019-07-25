@@ -4,9 +4,7 @@ package com.hlz.controller;
 import com.hlz.domain.service.UserService;
 import com.hlz.domain.viewmodels.QueryUserRes;
 import com.hlz.domain.viewmodels.base.Response;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,11 +24,13 @@ public class UserController {
      * @return
      */
     @ApiOperation(value = "查询用户")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "pageNumber",value = "当前页",defaultValue = "1",paramType = "query"),
+            @ApiImplicitParam(name = "pageSize",value = "每页显示条数",defaultValue = "10",paramType = "query")
+    })
     @ResponseBody
     @RequestMapping(value = "queryUser",method = RequestMethod.GET)
-    public Response<List<QueryUserRes>> queryUser(
-                                @RequestParam(value = "pageNumber",required = false,defaultValue = "1")@ApiParam("当前页") int pageNumber,
-                                @RequestParam(value = "pageSize",required = false,defaultValue = "10")@ApiParam("每页显示条数") int pageSize){
+    public Response<List<QueryUserRes>> queryUser(int pageNumber,int pageSize){
         return userService.queryUserAll(pageNumber,pageSize);
     }
 }
