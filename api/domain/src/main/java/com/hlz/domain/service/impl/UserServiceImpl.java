@@ -9,6 +9,7 @@ import com.hlz.domain.viewmodels.base.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -24,8 +25,9 @@ public class UserServiceImpl implements UserService {
     @Override
     public Response<List<QueryUserRes>> queryUserAll(int pageNumber,int pageSize) {
         Response response = new Response("");
-        QueryUserRes queryUserRes = new QueryUserRes();
+        List<QueryUserRes> queryUserResList = new ArrayList<>();
 
+        //查询所有User
         List<User> user = userMapper.selectUserAll(pageNumber - 1,pageSize);
 
         if (user == null){
@@ -34,18 +36,24 @@ public class UserServiceImpl implements UserService {
             return response;
         }
 
+        //将查询出的User赋到viewModels中传给前端
         for (User users :user){
+            QueryUserRes queryUserRes = new QueryUserRes();
             queryUserRes.setId(users.getId());
             queryUserRes.setUserName(users.getUserName());
             queryUserRes.setPassWord(users.getPassWord());
             queryUserRes.setRealName(users.getRealName());
+            queryUserResList.add(queryUserRes);
         }
+        //获取User总数
+        Integer total = userMapper.countUserAll();
 
         response.setPageNumber(pageNumber);
         response.setPageSize(pageSize);
-        response.setTotal(userMapper.countUserAll());
+        response.setTotal(total);
+        response.setTotalPages(total % pageSize == 0 ? total / pageSize : (total / pageSize) + 1);
 
-        response.setContent(queryUserRes);
+        response.setContent(queryUserResList);
         return response;
     }
 }

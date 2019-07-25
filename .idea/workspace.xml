@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129b99ec-3212-4e08-b0dd-fe404297bc9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hlzMSP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/domain/domain.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/msp-web-api/target/classes/META-INF/hlz.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/msp-web-api/target/classes/com/hlz/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/api/msp-web-api/target/classes/com/hlz/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/msp-web-api/target/test-classes/META-INF/hlz.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/QueryUserRes.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/QueryUserRes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/BaseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/BaseResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/domain/HlzApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/domain/HlzApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,6 +31,92 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/domain/HlzApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1144">
+              <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#708#709#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/QueryUserRes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/models/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/BaseResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
@@ -45,73 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/domain/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/domain/HlzApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/TestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/impl/TestServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="541">
+              <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,20 +143,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="155">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/domain/src/main/resources/mapping/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -201,20 +213,21 @@
         <option value="$PROJECT_DIR$/api/domain/src/main/resources/mapper/UserMapper.xml.fxml" />
         <option value="$PROJECT_DIR$/api/domain/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/model/User.java" />
-        <option value="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/QueryUserRes.java" />
         <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/enums/ResponseStatusCode.java" />
-        <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/BaseResponse.java" />
-        <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/Response.java" />
         <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/UserService.java" />
         <option value="$PROJECT_DIR$/api/domain/src/main/resources/application-mybatis.properties" />
-        <option value="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/domain/HlzApplication.java" />
         <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/api/domain/src/main/resources/mapping/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/api/msp-web-api/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/UserController.java" />
         <option value="$PROJECT_DIR$/api/domain/pom.xml" />
+        <option value="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/domain/HlzApplication.java" />
+        <option value="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/QueryUserRes.java" />
+        <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/models/User.java" />
+        <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/Response.java" />
+        <option value="$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/BaseResponse.java" />
+        <option value="$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/TestController.java" />
       </list>
     </option>
   </component>
@@ -248,7 +261,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
+    <option name="x" value="223" />
+    <option name="y" value="8" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -257,6 +271,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,6 +283,57 @@
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
               <item name="hlzMSP" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlzMSP" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlzMSP" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlzMSP" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlzMSP" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlzMSP" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlzMSP" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
@@ -331,11 +397,19 @@
               <item name="hlz" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hlzMSP" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="msp-web-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -418,18 +492,27 @@
       <workItem from="1563874304693" duration="3296000" />
       <workItem from="1563932052312" duration="9146000" />
       <workItem from="1563948020836" duration="9793000" />
-      <workItem from="1563963627832" duration="630000" />
+      <workItem from="1563963627832" duration="1276000" />
+      <workItem from="1564016169131" duration="4540000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1563964390070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563964390070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22865000" />
+    <option name="totallyTimeSpent" value="28051000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="260" y="0" width="1400" height="1000" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2589552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -439,7 +522,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.54989153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.521692" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.61755145" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,6 +549,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hlzMSP.iml">
@@ -536,65 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/QueryUserRes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/enums/ResponseStatusCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/BaseResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,10 +638,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="156">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/impl/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/domain/src/main/resources/mapping/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/domain/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/domain/HlzApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -628,80 +708,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        <state relative-caret-position="541">
+          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/domain/pom.xml">
+    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/BaseResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="546">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/base/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        <state relative-caret-position="130">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/viewmodels/QueryUserRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="532">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#754#755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/service/impl/TestServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/domain/src/main/java/com/hlz/domain/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/domain/src/main/resources/mapping/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/msp-web-api/src/main/java/com/hlz/domain/HlzApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
