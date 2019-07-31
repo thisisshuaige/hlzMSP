@@ -1,6 +1,7 @@
 package com.hlz.domain;
 
 import com.google.common.base.Predicate;
+import com.google.common.base.Predicates;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,7 +16,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-import java.util.ResourceBundle;
 
 @SpringBootApplication(scanBasePackages = "com.hlz.*")
 @MapperScan("com.hlz.domain.mapper")
@@ -42,6 +42,7 @@ public class HlzApplication {
                 .forCodeGeneration(false)
                 .pathMapping("/")
                 .select()
+                .paths(Predicates.not(PathSelectors.regex("/error.*")))
                 .paths(regex)
                 .build()
                 .apiInfo(apiInfo());
